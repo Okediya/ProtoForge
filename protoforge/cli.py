@@ -1,8 +1,7 @@
 import typer
 from pathlib import Path
 from typing import Optional
-from rich.panel import Panel
-from rich.prompt import Prompt, Confirm
+from rich.prompt import Confirm
 
 from protoforge.config import get_config
 from protoforge.project import ProtoProject, find_project_root, PartReference
