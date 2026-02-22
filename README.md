@@ -3,7 +3,7 @@
 
 **ProtoForge** is an elite CLI tool for learning and building virtual prototypes of ANY hardware (PC, car, airplane, drone, robot, IoT device, rocket, etc.). It integrates physics simulators, firmware emulation, and AI agents to provide an end-to-end prototyping experience.
 
-## 🚀 Key Features
+## Key Features
 
 - **AI Part Inventing**: Describe a part, and AI generates the parametric model (CadQuery) and physics parameters (Modelica).
 - **Virtual Assembly**: Assemble complex systems in a virtual environment with ease.
@@ -12,16 +12,16 @@
 - **Interactive Learning**: Guided AI tutorials to help you master hardware engineering.
 - **Export Ready**: Generates high-fidelity BOMs and step-by-step build instructions.
 
-## 🛠️ Installation
+## Installation
 
 ```bash
 # Recommended: Install via Poetry
-git clone https://github.com/your-username/protoforge.git
-cd protoforge
+git clone https://github.com/Okediya/ProtoForge.git
+cd ProtoForge
 poetry install
 ```
 
-## 📖 Quick Start
+## Quick Start
 
 1. **Initialize a Project**:
    ```bash
@@ -51,6 +51,6 @@ poetry install
    proto export      # Get your shopping list and assembly guide
    ```
 
-## ⚖️ License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
