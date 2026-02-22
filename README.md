@@ -21,35 +21,42 @@ cd ProtoForge
 poetry install
 ```
 
-## Quick Start
+## Quick Start (5-Minute Guide)
 
-1. **Initialize a Project**:
-   ```bash
-   proto new quadcopter-project
-   cd quadcopter-project
-   ```
+Follow these steps to build your first virtual prototype from scratch.
 
-2. **Configure Your AI**:
-   ```bash
-   # Supports Groq, OpenAI, Ollama, etc.
-   proto config model --provider groq --model llama-3.3-70b-versatile --key YOUR_API_KEY
-   ```
+### 1. Configure Your AI
+ProtoForge needs an AI "brain" to invent parts. We recommend **Groq** for speed or **Ollama** for local use.
+```bash
+# Example: Using Groq
+proto config model --provider groq --model llama-3.3-70b-versatile --key YOUR_API_KEY
+```
 
-3. **Invent Parts**:
-   ```bash
-   proto add mechanical "sturdy-carbon-frame" --ai-invent
-   ```
+### 2. Initialize a Project
+Create a fresh sandbox for your idea:
+```bash
+proto new quadcopter-project
+cd quadcopter-project
+```
 
-4. **Visualize & Simulate**:
-   ```bash
-   proto view        # See it in 3D (STL export)
-   proto simulate    # Run physics and firmware tests
-   ```
+### 3. Invent & Add Parts
+Describe any part you need, and the AI will "invent" it and add it to your project library.
+```bash
+proto add mechanical "ultralight-carbon-fiber-frame" --ai-invent
+```
 
-5. **Export to Real World**:
-   ```bash
-   proto export      # Get your shopping list and assembly guide
-   ```
+### 4. Visualize & Simulate
+See your design in 3D and run physics tests to ensure everything works as intended.
+```bash
+proto view        # Exports assembly to exports/assembly.stl
+proto simulate    # Runs physics and firmware checks
+```
+
+### 5. Export for Reality
+Get your Bill of Materials (BOM) and assembly guide for real-world manufacturing:
+```bash
+proto export      # Check the exports/ folder!
+```
 
 ## License
 
