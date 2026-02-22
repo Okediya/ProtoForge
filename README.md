@@ -15,7 +15,11 @@
 ## Installation
 
 ```bash
-# Recommended: Install via Poetry
+pip install protoforge
+```
+
+Or install via Poetry (for development):
+```bash
 git clone https://github.com/Okediya/ProtoForge.git
 cd ProtoForge
 poetry install
