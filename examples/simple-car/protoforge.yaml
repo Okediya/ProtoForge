@@ -1,0 +1,15 @@
+name: simple-car
+version: 0.1.0
+description: A simple virtual car prototype
+parts:
+- category: mechanical
+  name: car-chassis
+  quantity: 1
+  params: {}
+- category: electronics
+  name: motor-controller
+  quantity: 1
+  params: {}
+sim_settings:
+  renode:
+    platform: stm32f4
